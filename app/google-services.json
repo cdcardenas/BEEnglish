@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "828520335615",
+    "firebase_url": "https://beenglish-181cf.firebaseio.com",
+    "project_id": "beenglish-181cf",
+    "storage_bucket": "beenglish-181cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828520335615:android:31556a5363cc9c47",
+        "android_client_info": {
+          "package_name": "com.cdcc.beenglish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828520335615-vm0mtihke5mi0on0i487r1tqh86n17b4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOU5BwD9hVmAXhcCLu2BUGxXwHVE71Kfg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
