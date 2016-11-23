@@ -3,6 +3,7 @@ package com.cdcc.beenglish;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -71,6 +72,20 @@ public class BEELoginActivity extends AppCompatActivity implements LoaderCallbac
     private View mProgressView;
     private View mLoginFormView;
 
+
+    public void selPerfil(View view){
+
+        Intent intent = new Intent(this, AddprofileActivity.class);
+        startActivity(intent);
+        finish();
+
+
+
+    }
+
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -82,7 +97,9 @@ public class BEELoginActivity extends AppCompatActivity implements LoaderCallbac
         //Se crea conexion con la base de datos
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference referencia = database.getReference("prueba");
+        DatabaseReference referencia = database.getReference("Usuarios");
+
+        referencia.child("Edison").setValue("Probando");
 
         referencia.addValueEventListener(new ValueEventListener() {
             @Override

@@ -28,6 +28,7 @@
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:padding="40dp"
+            android:onClick="seleccionarImagen"
             android:background="@color/Skyblue"
             android:layout_gravity="center_horizontal" />
 
@@ -51,7 +52,8 @@
             android:textAlignment="center"
             android:id="@+id/editText2"
             android:layout_gravity="center_horizontal"
-            android:hint="Edad" />
+            android:hint="Edad"
+            />
 
         <GridLayout
             android:layout_width="match_parent"

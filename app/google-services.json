@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "828520335615",
-    "firebase_url": "https://beenglish-181cf.firebaseio.com",
-    "project_id": "beenglish-181cf",
-    "storage_bucket": "beenglish-181cf.appspot.com"
+    "project_number": "136857976961",
+    "firebase_url": "https://beenglish-6a2b1.firebaseio.com",
+    "project_id": "beenglish-6a2b1",
+    "storage_bucket": "beenglish-6a2b1.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:828520335615:android:31556a5363cc9c47",
+        "mobilesdk_app_id": "1:136857976961:android:31556a5363cc9c47",
         "android_client_info": {
           "package_name": "com.cdcc.beenglish"
         }
       },
       "oauth_client": [
         {
-          "client_id": "828520335615-j4444qf4imaq2hu70o5c7u33jcpn7pnc.apps.googleusercontent.com",
+          "client_id": "136857976961-t09e567cdtpcv1f8bobht54jhklgfbuq.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.cdcc.beenglish",
@@ -23,13 +23,13 @@
           }
         },
         {
-          "client_id": "828520335615-vm0mtihke5mi0on0i487r1tqh86n17b4.apps.googleusercontent.com",
+          "client_id": "136857976961-gisp4rfflngtd7bus0q6t53egimmh133.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBOU5BwD9hVmAXhcCLu2BUGxXwHVE71Kfg"
+          "current_key": "AIzaSyA_EXgYI_Bc12Um_rtSYp35JZ_OrQKFAf0"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "828520335615-vm0mtihke5mi0on0i487r1tqh86n17b4.apps.googleusercontent.com",
+              "client_id": "136857976961-gisp4rfflngtd7bus0q6t53egimmh133.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

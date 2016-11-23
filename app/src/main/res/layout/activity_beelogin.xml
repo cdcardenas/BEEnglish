@@ -59,6 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/login"
+        android:onClick="selPerfil"
         android:textStyle="bold"
         android:background="@color/skyblueAccent"
         android:layout_gravity="center_horizontal" />
