@@ -125,6 +125,7 @@
         android:scaleType="fitCenter"
         android:background="@color/Skyblue"
         android:src="@drawable/regresar"
+        android:onClick="VolverTres"
         android:layout_alignTop="@+id/textView10"
         android:layout_alignStart="@+id/textView6" />
 

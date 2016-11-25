@@ -61,6 +61,9 @@ public class BEELoginActivity extends AppCompatActivity implements View.OnClickL
     public void onClick(View view) {
         //calling register method on click
         registerUser();
+        Intent intent = new Intent(this, ProfileActivity.class);
+        startActivity(intent);
+        finish();
     }
 
     private void registerUser(){

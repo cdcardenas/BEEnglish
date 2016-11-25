@@ -51,6 +51,7 @@
             android:padding="40dp"
             android:background="@color/Skyblue"
             android:adjustViewBounds="true"
+            android:onClick="niveles"
             android:layout_alignParentTop="true"
             android:layout_gravity="center_horizontal" />
 
@@ -100,6 +101,7 @@
             android:adjustViewBounds="true"
             android:layout_below="@+id/imageButton2"
             android:layout_toEndOf="@+id/imageButton3"
+            android:onClick="agregarPerfil"
             android:layout_gravity="center_horizontal"
             android:layout_weight="0.18" />
 

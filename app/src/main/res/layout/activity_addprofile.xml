@@ -78,6 +78,7 @@
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
                 android:padding="40dp"
+                android:onClick="siguiente"
                 android:background="@color/Skyblue"
                 android:layout_gravity="right"
                 android:src="@drawable/aceptar"

@@ -132,6 +132,7 @@
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
         android:padding="5dp"
+        android:onClick="VolverDos"
         android:background="@color/Skyblue"
         android:src="@drawable/regresar"
         android:layout_alignParentTop="true"

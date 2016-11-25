@@ -42,6 +42,10 @@ public class AddprofileActivity extends AppCompatActivity {
         reference.setValue(nombre);
         reference.child(nombre).setValue(edad);
 
+        Intent intent = new Intent(this,ProfileActivity.class);
+        startActivity(intent);
+        finish();
+
 
     }
 
