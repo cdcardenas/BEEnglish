@@ -27,7 +27,8 @@
         <activity android:name=".ScoreActivity" />
         <activity android:name=".Level1Activity" />
         <activity android:name=".LevelGridActivity" />
-        <activity android:name=".level2Activity"></activity>
+        <activity android:name=".level2Activity" />
+        <activity android:name=".Level3Activity"></activity>
     </application>
 
 </manifest>
