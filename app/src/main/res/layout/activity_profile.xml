@@ -24,7 +24,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:id="@+id/imageButton13"
-            android:layout_weight="0.18"
+            android:layout_weight="0.19"
             android:background="@color/Skyblue"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
