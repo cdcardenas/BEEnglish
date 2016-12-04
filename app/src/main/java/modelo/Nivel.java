@@ -5,9 +5,9 @@ package modelo;
  */
 public class Nivel {
 
-    private final String COMPLETO  = "COMPLETO";
-    private final String ENPROCESO = "EN PROGRESO";
-    private final String INICIADO = "INICIADO";
+    public final static String COMPLETO  = "COMPLETO";
+    public final static String ENPROGRESO = "EN PROGRESO";
+    public final static String INICIADO = "INICIADO";
 
     private int id;
     private String estado;
@@ -15,7 +15,7 @@ public class Nivel {
     private String descripcion;
     private  int logros;
     private int totalLogros;
-    private long tiempo;
+    private long time;
 
     public Nivel(String estado, int id, String keyword, String descripcion, int logros, int totalLogros, long tiempo) {
         this.estado = estado;
@@ -24,15 +24,7 @@ public class Nivel {
         this.descripcion = descripcion;
         this.logros = logros;
         this.totalLogros = totalLogros;
-        this.tiempo = tiempo;
-    }
-
-    public String getCOMPLETO() {
-        return COMPLETO;
-    }
-
-    public String getENPROCESO() {
-        return ENPROCESO;
+        this.time = tiempo;
     }
 
     public int getId() {
@@ -41,10 +33,6 @@ public class Nivel {
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    public String getINICIADO() {
-        return INICIADO;
     }
 
     public String getEstado() {
@@ -87,19 +75,17 @@ public class Nivel {
         this.totalLogros = totalLogros;
     }
 
-    public long getTiempo() {
-        return tiempo;
+    public long getTime() {
+        return time;
     }
 
-    public void setTiempo(long tiempo) {
-        this.tiempo = tiempo;
+    public void setTime(long tiempo) {
+        this.time = tiempo;
     }
 
+    public int calcularEstrellas(){
 
-    public int CalcularResultado(){
-
-
-
-        return 0;
+        int estrellas = (int)(logros*3/totalLogros);
+        return estrellas;
     }
 }
