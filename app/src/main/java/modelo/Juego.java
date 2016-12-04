@@ -14,27 +14,20 @@ import java.util.ArrayList;
  */
 public class Juego  {
 
-    private Connection conxDB;
     private String informacionUsuarios;
     private ArrayList<Usuario> usuarios;
     private Nivel[] niveles;
 
     public Juego() {
-        conectarDB();
+
         usuarios = new ArrayList<Usuario>();
         niveles = new Nivel[3];
     }
 
-    private void conectarDB() {
+    public void crearUsuario(String username, String password, String infoPefiles) {
 
-    }
-
-    public void crearUsuario(String username, String password) {
-
-    }
-
-    public Connection getConxDB() {
-        return conxDB;
+        Usuario user = new Usuario(username,password,infoPefiles,null);
+        usuarios.add(user);
     }
 
     public String getInformacionUsuarios() {

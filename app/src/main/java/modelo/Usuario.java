@@ -55,9 +55,16 @@ public class Usuario {
         this.perfiles = perfiles;
     }
 
-    public void crearPerfil(String name, Image avatar, int edad, String informacionPerfil){
+    public void crearPerfil(String name, Image avatar, String edad, String informacionPerfil){
 
-
+        Perfil perfil = new Perfil(name,edad,avatar,informacionPerfil,null);
+        for(int i=0;i<4;i++)
+        {
+            if(perfiles[i]==null)
+            {
+                perfiles[i] = perfil;
+            }
+        }
     }
 
 }

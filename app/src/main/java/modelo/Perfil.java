@@ -15,7 +15,7 @@ public class Perfil {
     private Image avatar;
     private Nivel[] progreso;
 
-    public Perfil(String name, String edad, Image avatar,String info, Nivel[] progreso) {
+    public Perfil(String name, String edad, Image avatar, String info, Nivel[] progreso) {
         this.name = name;
         this.edad = Integer.parseInt(edad);
         this.avatar = avatar;
@@ -69,14 +69,32 @@ public class Perfil {
 
     public int calcularPuntaje(){
 
-        return 0;
+        int puntaje = 0;
+        for(int i=0;i<3;i++)
+        {
+            if(progreso[i]!=null)
+            {
+                puntaje = puntaje + progreso[i].getLogros();
+            }
+        }
+        return puntaje;
     }
 
-    public void desbloquearNivel(){
+    public void desbloquearNivel(Nivel nivel){
+
+        for(int i=0;i<3;i++)
+        {
+            if(progreso[i]==null && nivel.getId()==(i+1))
+            {
+                nivel.setEstado(Nivel.INICIADO);
+                progreso[i] = nivel;
+            }
+        }
 
     }
 
     public void jugarNivel(int nivel){
 
+        progreso[nivel-1].setEstado(Nivel.ENPROGRESO);
     }
 }
