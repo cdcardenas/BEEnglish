@@ -61,6 +61,19 @@ public class AddprofileActivity extends AppCompatActivity {
     }
 
 
+    public void perfilSinCrear(){
+
+        Intent intent = new Intent(this, ProfileActivity.class);
+        startActivity(intent);
+        finish();
+
+
+
+
+
+    }
+
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
